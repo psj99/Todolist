@@ -1,0 +1,25 @@
+[todo-list] 2023/07/31 20:05:36	INFO	/root/workspace/Todolist/api/task.go:17	Key: 'CreateTaskReq.Title' Error:Field validation for 'Title' failed on the 'min' tag
+[todo-list] 2023/07/31 20:08:40	INFO	/root/workspace/Todolist/service/task.go:84	[<nil> <nil> <nil> <nil> <nil> 0xc00061f9f0 0xc00061fa90]
+[todo-list] 2023/07/31 20:10:21	INFO	/root/workspace/Todolist/service/task.go:84	[0xc000093d60 0xc000093db0]
+[todo-list] 2023/07/31 20:15:36	INFO	/root/workspace/Todolist/service/task.go:84	[0xc00022e320 0xc00022e370]
+[todo-list] 2023/07/31 20:16:25	INFO	/root/workspace/Todolist/service/task.go:84	[0xc0000921e0 0xc000092230]
+[todo-list] 2023/07/31 20:27:24	INFO	/root/workspace/Todolist/service/task.go:84	[0xc000708370 0xc0007083c0 0xc000708410 0xc000708460 0xc0007084b0]
+[todo-list] 2023/07/31 20:27:35	INFO	/root/workspace/Todolist/service/task.go:84	[0xc0000923c0 0xc0000925f0 0xc000092640 0xc000092690 0xc0000926e0]
+[todo-list] 2023/07/31 20:37:46	INFO	/root/workspace/Todolist/service/task.go:84	[0xc00012db30 0xc00012db80]
+[todo-list] 2023/07/31 20:50:32	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 20:50:36	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 20:50:46	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 20:52:54	INFO	/root/workspace/Todolist/service/task.go:84	[0xc000695b30 0xc000695b80]
+[todo-list] 2023/07/31 20:54:22	INFO	/root/workspace/Todolist/service/task.go:84	[0xc000695e00 0xc000695e50]
+[todo-list] 2023/07/31 20:54:31	INFO	/root/workspace/Todolist/service/task.go:84	[0xc00045c0a0 0xc00045c0f0]
+[todo-list] 2023/07/31 20:57:08	INFO	/root/workspace/Todolist/service/task.go:84	[0xc000092d20 0xc000092d70]
+[todo-list] 2023/07/31 20:57:20	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 20:58:20	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 20:59:59	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 21:01:14	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 21:01:26	INFO	/root/workspace/Todolist/api/task.go:93	<nil>
+[todo-list] 2023/07/31 21:02:05	INFO	/root/workspace/Todolist/api/task.go:95	<nil>
+[todo-list] 2023/07/31 21:03:03	INFO	/root/workspace/Todolist/api/task.go:95	<nil>
+[todo-list] 2023/07/31 21:03:42	INFO	/root/workspace/Todolist/api/task.go:95	<nil>
+[todo-list] 2023/07/31 21:04:29	INFO	/root/workspace/Todolist/api/task.go:95	<nil>
+[todo-list] 2023/07/31 21:05:49	INFO	/root/workspace/Todolist/service/task.go:84	[0xc0000922d0 0xc000092320]

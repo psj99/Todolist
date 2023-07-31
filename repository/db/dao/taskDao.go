@@ -2,6 +2,7 @@ package dao
 
 import (
 	"Todolist/repository/db/model"
+	"Todolist/types"
 	"context"
 
 	"gorm.io/gorm"
@@ -41,27 +42,27 @@ func (dao *taskDao) FindTaskByIdAndUserId(uId, id uint) (r *model.Task, err erro
 }
 
 // UpdateTask 修改
-// func (s *taskDao) UpdateTask(uId uint, req *types.UpdateTaskReq) error {
-// 	t := new(model.Task)
-// 	err := s.Model(&model.Task{}).Where("id = ? AND uid=?", req.ID, uId).First(&t).Error
-// 	if err != nil {
-// 		return err
-// 	}
+func (s *taskDao) UpdateTask(uId uint, req *types.UpdateTaskReq) error {
+	t := new(model.Task)
+	err := s.Model(&model.Task{}).Where("id = ? AND uid=?", req.ID, uId).First(&t).Error
+	if err != nil {
+		return err
+	}
 
-// 	if req.Status != 0 {
-// 		t.Status = req.Status
-// 	}
+	if req.Status != 0 {
+		t.Status = req.Status
+	}
 
-// 	if req.Title != "" {
-// 		t.Title = req.Title
-// 	}
+	if req.Title != "" {
+		t.Title = req.Title
+	}
 
-// 	if req.Content != "" {
-// 		t.Content = req.Content
-// 	}
+	if req.Content != "" {
+		t.Content = req.Content
+	}
 
-// 	return s.Save(t).Error
-// }
+	return s.Save(t).Error
+}
 
 // SearchTask 搜索Task
 func (dao *taskDao) SearchTask(uId uint, info string) (tasks []*model.Task, err error) {

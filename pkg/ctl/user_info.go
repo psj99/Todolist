@@ -19,10 +19,12 @@ func GetUserInfo(ctx context.Context) (*UserInfo, error) {
 	if !ok {
 		return nil, errors.New("获取用户信息错误")
 	}
+	// ctx.Value("user_id").
 	return user, nil
 }
 
 func NewContext(ctx context.Context, u *UserInfo) context.Context {
+
 	return context.WithValue(ctx, userKey, u)
 }
 

@@ -1,6 +1,10 @@
 package model
 
 import (
+	"Todolist/repository/cache"
+	"context"
+	"strconv"
+
 	"gorm.io/gorm"
 	// _ "todolist/repository/cache"
 )
@@ -29,3 +33,13 @@ type Task struct {
 // 	cache.RedisClient.Incr(cache.TaskViewKey(Task.ID))                      // 增加视频点击数
 // 	cache.RedisClient.ZIncrBy(cache.RankKey, 1, strconv.Itoa(int(Task.ID))) // 增加排行点击数
 // }
+
+func (t *Task) View(ctx context.Context) int {
+	countStr, _ := cache.RedisClient.Get(ctx, cache.TaskViewKey(t.ID)).Result()
+	count, _ := strconv.ParseUint(countStr, 10, 64)
+	return int(count)
+}
+
+func (t *Task) AddView(ctx context.Context) {
+	cache.RedisClient.Incr(ctx, cache.TaskViewKey(t.ID))
+}
