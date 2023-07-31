@@ -1,0 +1,6 @@
+[todo-list] 2023/07/30 17:27:13	ERROR	/root/workspace/Todolist/api/user.go:16	Key: 'UserServiceReq.Password' Error:Field validation for 'Password' failed on the 'required' tag
+[todo-list] 2023/07/30 17:27:50	ERROR	/root/workspace/Todolist/api/user.go:16	Key: 'UserServiceReq.Password' Error:Field validation for 'Password' failed on the 'required' tag
+[todo-list] 2023/07/30 17:28:30	ERROR	/root/workspace/Todolist/api/user.go:16	Key: 'UserServiceReq.Password' Error:Field validation for 'Password' failed on the 'required' tag
+[todo-list] 2023/07/30 17:56:45	ERROR	/root/workspace/Todolist/api/user.go:16	Key: 'UserServiceReq.Password' Error:Field validation for 'Password' failed on the 'required' tag
+[todo-list] 2023/07/30 17:56:50	ERROR	/root/workspace/Todolist/api/user.go:16	mime: unexpected content after media subtype
+[todo-list] 2023/07/30 20:47:30	INFO	/root/workspace/Todolist/service/user.go:68	账号/密码错误
